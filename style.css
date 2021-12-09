@@ -1,0 +1,48 @@
+button {
+  background-color: rgb(0, 140, 255);
+  color: white;
+  border: 0px solid;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 2rem;
+  width: 150px;
+}
+button:hover {
+  background-color: rgb(1, 114, 207);
+  cursor: pointer;
+}
+button:active {
+  box-shadow: 0 0 1px 5px;
+  background-color: rgb(3, 94, 168);
+}
+
+div {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.orfenParts {
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 50px;
+  /* height: 3px; */
+  background-color: rgb(126, 128, 0);
+}
+.orfenParts:hover {
+  color: black;
+  cursor: pointer;
+}
+
+body {
+  background-color: rgb(197, 227, 132);
+}
+
+.container {
+  margin: 0 auto;
+  width: 400px;
+  box-shadow: 1px 1px 5px 0 black;
+  margin-top: 4rem;
+  height: 100%;
+  padding: 5rem;
+}
